@@ -2,9 +2,13 @@
 .navbar-brand {
     margin-left: 30px;
     padding: 10px;
-    background-color: palevioletred;
+    background-color: pink;
     text-align: center;
     font-weight: bold;
     font-size: 3vh;
     color: white;
+}
+
+.nav-item {
+    color: gray;
 }
