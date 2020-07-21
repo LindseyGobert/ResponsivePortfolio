@@ -1,14 +1,38 @@
 
+body {
+    background-color: #edeeee;
+}
+
 .navbar-brand {
     margin-left: 30px;
     padding: 10px;
-    background-color: pink;
+    background-color: #ea8ec4;
     text-align: center;
     font-weight: bold;
     font-size: 3vh;
-    color: white;
 }
 
-.nav-item {
-    color: gray;
+.navbar-brand {
+    color: white !important;
+}
+
+.container {
+    margin: 30px;
+    padding: 50px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    width: 50%;
+    background-color: white;
+}
+
+h1 {
+    color: #ea8ec4;
+    border-bottom-style: solid;
+    border-width: 3px;
+    margin-bottom: 30px;
+}
+
+#sticky-footer {
+    position: relative;
 }
