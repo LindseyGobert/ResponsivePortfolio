@@ -38,7 +38,12 @@ h1 {
 
 .pf.img {
     padding: 20px;
-    display: inline-block;
+    position: relative;
+}
+
+.pf-img .responsive {
+    width: auto;
+    height: auto;
     position: relative;
 }
 
@@ -57,8 +62,19 @@ h1 {
     color: white;
 }
 
+.btn {
+    background-color: #ea8ec4;
+    color: white;
+    margin-top: 3%;
+}
+
 footer {
     color: white !important; 
-    margin-top: 7%;
-    padding: 3vh;
+    margin-top: 5%;
+    padding: .5vh;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    border-top: 2px solid #ea8ec4;
 }
