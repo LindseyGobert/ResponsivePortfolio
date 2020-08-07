@@ -25,33 +25,37 @@
     </nav>
 
     <main class="container">
+        <div class="row">
+            <div class="col-md-8 content">
         <h1>Contact</h1>
-        <form class="col-lg-8 col-11"> 
+        <form action="mailto:lmgobert1@gmail.com" method="post" enctype="text/plain" class="col-lg-8 col-11"> 
             <div class="form-row">
               <div class="col">
                 <label for="exampleFormNameInput">Name</label>
-                <input type="text" class="form-control" placeholder="Name">
+                <input name="name" type="text" class="form-control" placeholder="Name">
               </div>
             </div>
              <div class="form-group">
                 <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                <button type="submit" class="btn">Submit</button>
+                <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
+            <button type="submit" class="btn">Submit</button>
         </form>
+    </div>
+    </div>
     </main>
 
     <footer class="page-footer font-small" style="background-color: grey">
         <div class="footer-copyright text-center py-3">
             © 2020 Copyright
             <br>
-            <a href="https://www.instagram.com/lindseymachelle/" class="fa fa-instagram"></a>
-            <a href="https://twitter.com/LindseyMachelle" class="fa fa-twitter"></a>
-            <a href="https://www.linkedin.com/in/lindsey-gobert-b5b325117/" class="fa fa-linkedin"></a>
+            <a href="https://www.instagram.com/lindseymachelle/" class="fa fa-instagram" target="_blank"></a>
+            <a href="https://twitter.com/LindseyMachelle" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/lindsey-gobert-b5b325117/" class="fa fa-linkedin" target="_blank"></a>
         </div>
     </footer>
 

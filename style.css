@@ -1,3 +1,7 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
 
 body {
     background-color: #edeeee;
@@ -17,14 +21,32 @@ body {
 }
 
 .container {
-    margin: 30px;
-    padding: 50px;
-    border-style: solid;
-    border-color: gray;
-    border-width: 1px;
-    width: 50%;
-    background-color: white;
+    margin: 0 0 100px 0;
+    /* margin-top: 50px !important;
+    margin-bottom: 300px;
+    padding: 50px !important;
+    border-style: solid !important;
+    border-color: gray !important;
+    border-width: 1px !important;
+    width: 50% !important;
+    background-color: white !important; */
+    /* margin-bottom: 500px !important; */
 
+}
+
+.content {
+    padding: 50px;
+    margin: 30px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    background-color: white;
+}
+
+.about .img-fluid {
+    float: left;
+    max-width: 40%;
+    margin-right: 20px;
 }
 
 h1 {
@@ -36,26 +58,26 @@ h1 {
     padding-bottom: 5%;
 }
 
-.pf.img {
+.pf-img {
     padding: 20px;
     position: relative;
 }
 
 .pf-img .responsive {
-    width: auto;
+    width: 100%;
     height: auto;
     position: relative;
 }
 
 .pf-img .img-text {
-    position: absolute;
+    position: relative;
     background-color: #ea8ec4;
-    top: 60%;
+    bottom: 60px;
     left: 0;
-    right: 0;
-    margin: 5%;
-    width: 199px;
-    z-index: 2;
+    /* right: 0; */
+    /* margin: 5%; */
+    width: 100%;
+    /* z-index: 2; */
     height: 4vh;
     font-size: 2vh;
     text-align: center;
@@ -70,8 +92,8 @@ h1 {
 
 footer {
     color: white !important; 
-    margin-top: 100%;
-    position: fixed;
+    /* margin-top: 500px !important; */
+    position: absolute;
     bottom: 0;
     right: 0;
     width: 100%;
