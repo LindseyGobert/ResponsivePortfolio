@@ -61,12 +61,14 @@ h1 {
 .pf-img {
     padding: 20px;
     position: relative;
+    
 }
 
 .pf-img .responsive {
     width: 100%;
     height: auto;
     position: relative;
+    border: 1px solid black;
 }
 
 .pf-img .img-text {
